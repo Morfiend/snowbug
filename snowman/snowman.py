@@ -103,6 +103,7 @@ def build_game_board(word, word_dict):
 
 def add_wrong_letter(wrong_letters, letter):
     wrong_letters.append(letter)
+    wrong_letters.sort()
 
 
 # There are no issues in this function
